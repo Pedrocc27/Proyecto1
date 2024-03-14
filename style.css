@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    .formulario {
+        width: 100%; /* Ancho completo en dispositivos móviles */
+    }
+
+    .formestilo {
+        width: 90%; /* Ancho del formulario ajustado */
+    }
+
+    /* Otros estilos específicos para dispositivos móviles si los necesitas */
+}
+
+/* Estilos específicos para dispositivos de escritorio */
+@media (min-width: 769px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ancho fijo en dispositivos de escritorio */
+    }
+}
+
+.inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+.biografia,
+.logros,
+.rivalidades {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+.info-personal,
+.primera-victoria,
+.tenista-profesional {
+    margin-bottom: 20px;
+}
+
+.info-personal img,
+.primera-victoria img,
+.tenista-profesional img,
+.retorno-lesiones img,
+.ultimos-anos-retiro img {
+    width: 100%;
+    height: auto;
+}
+
+.carrera-deportiva,
+.punto-algido-2008,
+.victorias-posteriores,
+.retorno-lesiones,
+.ultimos-anos-retiro {
+    margin-bottom: 20px;
+}
+
+.carrera-deportiva img,
+.punto-algido-2008 img,
+.retorno-lesiones img,
+.ultimos-anos-retiro img,
+.abierto-francia img,
+.abierto-australia img,
+.otros-torneos-destacados img {
+    width: 100%;
+    height: auto;
+}
+
+.abierto-australia,
+.torneos-masters,
+.copa-davis,
+.mejor-tenista-atp-tour,
+.otros-torneos-destacados {
+    margin-bottom: 20px;
+}
+
+.rivalidad-federer,
+.final-mariano-puerta,
+.partido-mathieu,
+.cuartos-carlos-moya,
+.final-roland-garros-federer,
+.final-wimbledon-federer {
+    margin-bottom: 20px;
+}
+
+.rivalidad-djokovic,
+.rivalidad-murray {
+    margin-bottom: 20px;
+}
+
+.rivalidad-federer img,
+.final-mariano-puerta img,
+.partido-mathieu img,
+.cuartos-carlos-moya img,
+.final-roland-garros-federer img,
+.final-wimbledon-federer img {
+    width: 100%;
+    height: auto;
+}
+
+.rivalidad-djokovic img,
+.rivalidad-murray img {
+    width: 100%;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Info {
+    text-align: center;
+}
+
+.formestilo {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.formestilo form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formestilo label {
+    margin-bottom: 8px;
+}
+
+.formestilo input,
+.formestilo textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.formestilo button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.formestilo button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
